@@ -1,6 +1,6 @@
 # calculator
 
-> code excercise for sezzle
+> code excercise for sezzle - app is hosted on AWS S3 here: http://sezzle-calculator.s3-website-us-east-1.amazonaws.com
 
 ## Build Setup
 
