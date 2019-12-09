@@ -1,0 +1,25 @@
+{
+  "name": "calculator-server",
+  "version": "1.0.0",
+  "description": "code excercise calculator",
+  "main": "server.js",
+  "scripts": {
+    "test": "standard",
+    "start": "nodemon -i server.js"
+  },
+  "keywords": [
+    "node",
+    "vue",
+    "websockets"
+  ],
+  "author": "Noah Caron",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.1",
+    "server": "^1.0.21"
+  },
+  "dependencies": {
+    "server": "^1.0.21",
+    "webpack": "^4.41.2"
+  }
+}
