@@ -8,7 +8,7 @@ import VueSocketIO from 'vue-socket.io'
 
 Vue.use(new VueSocketIO({
   debug: true,
-  connection: 'http://localhost:3000',
+  connection: 'http://ec2-3-80-23-120.compute-1.amazonaws.com:3000',
   query: {
     token: window.localStorage.getItem('auth')
   }

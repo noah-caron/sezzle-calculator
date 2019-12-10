@@ -14,4 +14,4 @@ server({ port }, [
     ctx.io.emit('count', {msg: 'HI U', count: Object.keys(ctx.io.sockets.sockets).length})
   })
 ])
-  .then(() => console.log(`Server running at http://localhost:${port}`))
+  .then(() => console.log(`Server running at port ${port}`))

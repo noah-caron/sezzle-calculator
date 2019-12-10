@@ -9,7 +9,8 @@ export default new Router({
     {
       path: '/',
       name: 'Calculator',
-      component: Calculator
+      component: Calculator,
+      useEslint: false,
     }
   ]
 })
